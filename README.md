@@ -5,6 +5,8 @@ Inline Manifest Webpack Plugin
 
 This is a [webpack](http://webpack.github.io/) plugin that inline your manifest.js with a script tag to save http request. Cause webpack's runtime always change between every build, it's better to split the runtime code out for long-term caching.
 
+Read a longer explanation of [how to enable long-term caching with webpack](https://medium.com/@okonetchnikov/long-term-caching-of-static-assets-with-webpack-1ecb139adb95#.bbkwtwbvm) by [@okonet](https://github.com/okonet/)
+
 
 Installation
 ------------
